@@ -1,0 +1,87 @@
+/* styles for all items */
+* {
+    box-sizing: border-box;
+}
+
+/* base styles */
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+/* styles for header block */
+.header {
+    background-color: white;
+    padding: 40px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_image {
+    width: 100px;
+}
+
+/* styles for main block */
+.main {
+    background-color: #fff;
+    padding: 0 40px 40px 40px;
+}
+
+
+.section {
+    padding: 10px 0;
+}
+
+.section_line {
+    height: 2px;
+    background-color: lightgray;
+}
+
+.section_title {
+    text-align: center;
+    font-size: 26px;
+}
+
+.section_content {
+    text-indent: 50px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.items {
+    font-size: 20px;
+}
+
+.items-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 10px 0;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-container:nth-child(even) {
+    background-color: lightgray;
+}
+.item-listitem {
+    padding:10px;
+}
+
+
+.item_first {
+    font-weight: bold;
+}
+
+.item_second {
+    font-style: italic;
+}
